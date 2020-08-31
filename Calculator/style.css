@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aquamarine;
+}
+
+.calc {
+  width: 320px;
+  height: 480px;
+  background: #eee;
+  border-radius: 5px;
+}
+
+output {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 40px;
+  background: #fff;
+  margin: 10px auto;
+  border-radius: 5px;
+  font-size: 1.4em;
+  font-weight: bold;
+}
+
+.keybrd {
+  height: 440px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+button {
+  margin: 0.5em 1em;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: bold;
+}
